@@ -1,2 +1,2 @@
 
-I am learning Python.
+I am learning Python & algorithms.
