@@ -49,10 +49,8 @@ if __name__ == "__main__":
             adj[u] = {}
         adj[u][v] = c
 
+    solution = ShortestPath()
     start = "a"
-    solution = ShortestPath()
     solution.dijkstra(adj, start)
-
     start = "b"
-    solution = ShortestPath()
     solution.dijkstra(adj, start)
